@@ -28,11 +28,12 @@ fx2.sum = sum(qcount.df$fx2)
 
 
 ##Fifth, calculate VAR, MEAN, and VMR. ### OF WHICH VARIABLES? f.sum, TotPoints.Sum, fx2.sum?
-VAR = sum(qcount.df$xfx2)/(sum(qcount.df$f)-1)
-mean.points = 
-VMR = 
+m = sum(qcount.df$f)
+VAR = sum(qcount.df$xfx2)/(m-1)
+mean.points = TotPoints.sum/(m) # n/m
+VMR = VAR/mean.points
 
 ##Finally, perform the test statistic to test for the existence of a random spatial pattern.
-chi.square = 
+chi.square = VMR*(m-1)
 p = 1 - pchisq(chi.square,nrow(qcount.df))
-
+#The P-Value is < 0.00001. The result is significant at p < 0.05
