@@ -1,3 +1,1 @@
-# geog418-518-a2
-Geog 418/518 Assignment 2 Code
-Project contains code to complete Assignment 2 in Geog 418/518
+analysis of GVRD homicide point pattern final website product: https://onlineacademiccommunity.uvic.ca/dhugetpointpatternanalysis/homicides-in-the-gvrd/
