@@ -1,1 +1,1 @@
-analysis of GVRD homicide point pattern final website product: https://onlineacademiccommunity.uvic.ca/dhugetpointpatternanalysis/homicides-in-the-gvrd/
+analysis of GVRD homicide point pattern, see the website blog product [here](https://dahuget.home.blog/2019/05/27/analyzing-homicides-in-the-greater-vancouver-area/)
